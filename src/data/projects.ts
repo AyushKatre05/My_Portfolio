@@ -4,32 +4,32 @@ import { type ProjectShowcaseListItem } from "@/components/projects/project-show
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
-    title: "Typing App",
+    title: "Interview Preperation App",
     href: "/projects",
-    tags: ["MERN", "Typescript", "Vite", "Monkey-type clone"],
+    tags: ["NextJs", "JavaScript", "ShadCN", "Clerk", "Postgresql"],
     image: {
-      LIGHT: "images/projects/typing app light.jpg",
-      DARK: "images/projects/typing app.png",
+      LIGHT: "images/projects/interview.webp",
+      DARK: "images/projects/interview.webp",
     },
   },
   {
     index: 1,
-    title: "Candy Crush Clone",
+    title: "AI Content Generator",
     href: "/projects",
-    tags: ["MERN", "React", "Vite", "Typescript", "SASS", "Tailwind"],
+    tags: ["NextJs", "TypeScript", "Drizzle", "Postgresql", "ShadCN"],
     image: {
-      LIGHT: "/images/projects/candy-crush.avif",
-      DARK: "/images/projects/candy-crush.avif",
+      LIGHT: "/images/projects/contentgenerator.png",
+      DARK: "/images/projects/contentgenerator.png",
     },
   },
   {
     index: 2,
-    title: "Leetcode Snippet Finder",
+    title: "Chat App",
     href: "/projects",
-    tags: ["Python", "Streamlit", "Jupyter Notebook", "Data Analysis"],
+    tags: ["NextJs", "TypeScript", "Redis", "Cloudinary"],
     image: {
-      LIGHT: "/images/projects/Leetcode.png",
-      DARK: "/images/projects/Leetcode dark.png",
+      LIGHT: "/images/projects/chat.png",
+      DARK: "/images/projects/chat.png",
     },
   },
 ];
