@@ -17,6 +17,7 @@ import ReduxSvg from "@/public/icons/redux.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
 import MuiSvg from "@/public/icons/mui.svg";
 import ViteSvg from "@/public/icons/vite.svg";
+import ShadcnSvg from "@/public/icons/shadcnui.svg";
 
 // Backend
 import NodejsSvg from "@/public/icons/nodejs.svg";
@@ -95,6 +96,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Vite",
         icon: ViteSvg,
+      },
+      {
+        name: "ShadCN",
+        icon: ShadcnSvg,
       },
     ],
   },

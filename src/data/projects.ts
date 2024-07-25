@@ -4,31 +4,31 @@ import { type ProjectShowcaseListItem } from "@/components/projects/project-show
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
-    title: "Interview Preperation App",
-    href: "/projects",
-    tags: ["NextJs", "JavaScript", "ShadCN", "Clerk", "Postgresql"],
+    title: "Excalidraw",
+    href: "https://excalidraw-ak.vercel.app",
+    tags: ["NextJs", "TypeScript", "ShadCN", "Convex", "Kinde"],
     image: {
-      LIGHT: "images/projects/interview.webp",
-      DARK: "images/projects/interview.webp",
+      LIGHT: "images/projects/drawlight.png",
+      DARK: "images/projects/draw.jpg",
     },
   },
   {
     index: 1,
-    title: "AI Content Generator",
-    href: "/projects",
-    tags: ["NextJs", "TypeScript", "Drizzle", "Postgresql", "ShadCN"],
+    title: "Ecommerce App",
+    href: "https://full-stack-ecommerce-with-admin-dashboard-ak.vercel.app",
+    tags: ["NextJs", "Javascript", "MongoDB", "Redux", "Firebase"],
     image: {
-      LIGHT: "/images/projects/contentgenerator.png",
-      DARK: "/images/projects/contentgenerator.png",
+      LIGHT: "/images/projects/ecommercelight.jpg",
+      DARK: "/images/projects/ecommerce.jpg",
     },
   },
   {
     index: 2,
     title: "Chat App",
-    href: "/projects",
-    tags: ["NextJs", "TypeScript", "Redis", "Cloudinary"],
+    href: "https://chat-application-ak.vercel.app",
+    tags: ["NextJs", "TypeScript", "Redis", "Cloudinary", "Framer Motion"],
     image: {
-      LIGHT: "/images/projects/chat.png",
+      LIGHT: "/images/projects/chatlight.jpg",
       DARK: "/images/projects/chat.png",
     },
   },
@@ -36,60 +36,59 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
-    name: "Coursera Course Recommendor",
+    name: "Form Builder Using AI",
     favicon: "/images/projects/logos/a.ico",
-    imageUrl: [
-      "/images/projects/Coursera.png",
-      "/images/projects/Coursera Light.png",
-    ],
+    imageUrl: ["/images/projects/formbuilder.jpg"],
     description:
-      "I developed a Coursera course recommender using Python, leveraging machine learning algorithms to analyze user preferences and suggest relevant courses. This tool enhances the learning experience by providing personalized course recommendations based on individual interests and past behavior",
-    sourceCodeHref:
-      "https://github.com/AyushKatre05/Course-Recommendation-For-Coursera.git",
+      "Form builder was developed using Next.js for a modern, server-side rendered frontend, and Clerk for secure user authentication and management. NeonDB was utilized for scalable and flexible database management, handling form data and user interactions efficiently. ShadCN was integrated to enhance the user interface with sleek, customizable components. The app leverages AI to dynamically generate and customize forms based on user inputs and requirements, providing an intuitive and adaptive form-building experience.",
+    sourceCodeHref: "https://github.com/AyushKatre05/Form-Maker.git",
+    liveWebsiteHref: "https://google-form-clone-builder.vercel.app",
   },
   {
-    name: "Expense Tracker",
+    name: "Interview Preperation App",
     favicon: "/images/projects/logos/b.ico",
-    imageUrl: ["/images/projects/Expense tracker.png"],
+    imageUrl: ["/images/projects/interview.jpeg"],
     description:
-      "I created an expense tracker using Python that helps users monitor and manage their spending. This tool features easy data input, categorization of expenses, and detailed reports, enabling users to maintain better control over their finances.",
-    sourceCodeHref: "https://github.com/AyushKatre05/Expense-Tracker.git",
+      "The AI-driven interview preparation app was developed using Next.js for a robust and scalable frontend, with Drizzle ORM and PostgreSQL handling the backend data management. Drizzle ORM simplifies database interactions and integrates seamlessly with PostgreSQL to manage user data and interview content. The app leverages AI to generate personalized interview questions and provide feedback, enhancing the preparation process.",
+    sourceCodeHref:
+      "https://github.com/AyushKatre05/Interview-Preperation-App.git",
+    liveWebsiteHref: "https://interview-preperation-app.vercel.app",
   },
   {
-    name: "WhatsApp Chat Analysis",
-    favicon: "/images/projects/logos/e.ico",
-    imageUrl: ["/images/projects/whatsapp-analyzer.png"],
+    name: "LinkedIn Clone",
+    favicon: "/images/projects/logos/c.ico",
+    imageUrl: ["/images/projects/linkedin.jpg"],
     description:
-      "I created a WhatsApp chat analyzer using Python to help users gain insights from their chat history. This tool processes and visualizes chat data, providing statistics on message frequency, active times, and user participation. It also identifies key trends and patterns in conversations, making it easier to understand communication dynamics within the chat.",
+      "The LinkedIn-style application was built using JavaScript with Next.js for a modern and performant server-side rendering experience. MongoDB was used for scalable data storage, handling user profiles, connections, and posts. The application features user authentication, profile management, and a dynamic feed of posts and updates. Next.js's API routes and MongoDB flexible schema enabled efficient data handling and real-time updates.",
+    sourceCodeHref: "https://github.com/AyushKatre05/LinkedIn.git",
+    liveWebsiteHref: "https://linked-in-ak.vercel.app",
+  },
+  {
+    name: "WhatsApp Chat Analyzer",
+    favicon: "/images/projects/logos/e.ico",
+    imageUrl: ["/images/projects/whatsapp.png"],
+    description:
+      "The WhatsApp chat analyzer was developed using Python, leveraging libraries such as Pandas for data manipulation and Matplotlib for visualization. The tool processes exported WhatsApp chat logs, extracting key metrics such as message frequency, active times, and word usage. Natural Language Processing (NLP) techniques are employed to analyze sentiment and identify common themes, providing insightful summaries and visual representations of chat data.",
     sourceCodeHref:
       "https://github.com/AyushKatre05/Whatsapp-Chat-Analysis.git",
+    liveWebsiteHref: "https://whatsapp-chat-analysis-ak.streamlit.app",
   },
   {
     name: "Snake Game",
     favicon: "/favicon.ico",
-    imageUrl: ["/images/projects/snake-game.webp"],
+    imageUrl: ["/images/projects/snakegame.png"],
     description:
-      "I developed a Snake game using React and TypeScript, providing a modern twist on the classic game. The project features smooth animations, responsive controls, and an intuitive user interface. Leveraging the strengths of React for efficient rendering and TypeScript for type safety, this game offers an engaging and seamless user experience.",
+      "The Snake game was developed using React, utilizing its component-based structure to manage game state and rendering. The game logic, including snake movement and collision detection, is handled with React hooks for a smooth and responsive experience. User inputs are captured via event handlers, and the game features dynamic updates and real-time interactions to create an engaging and nostalgic gameplay experience.",
     sourceCodeHref: "https://github.com/AyushKatre05/Snake-Game.git",
-    liveWebsiteHref: "https://snakegamebyak.netlify.app/",
+    liveWebsiteHref: "https://snakegamebyak.netlify.app",
   },
   {
-    name: "Language Translator",
-    favicon: "/images/projects/logos/c.ico",
-    imageUrl: ["/images/projects/translator.jpg"],
-    description:
-      "I created a language translator using JavaScript, designed to provide quick and accurate translations between multiple languages. The tool utilizes APIs to fetch translations and offers a user-friendly interface for easy text input and output. This project demonstrates the power of JavaScript in building interactive and functional web applications.",
-    sourceCodeHref: "https://github.com/AyushKatre05/Language-Translator.git",
-    liveWebsiteHref: "https://languageappbyak.netlify.app/",
-  },
-  {
-    name: "Speech Recognition TODO app",
+    name: "Candy Crush",
     favicon: "/images/projects/logos/d.ico",
-    imageUrl: ["/images/projects/todo.jpg"],
+    imageUrl: ["/images/projects/candycrush.png"],
     description:
-      "I developed a speech recognition to-do list application using JavaScript, allowing users to manage their tasks hands-free. The app leverages modern web APIs to capture and interpret voice commands, enabling users to add, complete, and delete tasks with ease. This project showcases the integration of speech recognition technology to enhance productivity and user experience.",
-    sourceCodeHref:
-      "https://github.com/AyushKatre05/Speech-Recognition-Todo.git",
-    liveWebsiteHref: "https://todoappbyak.netlify.app/",
+      "The Candy Crush app was developed using React, leveraging its component-based architecture to create interactive gameplay elements. State management for game progress and user interactions was handled efficiently with React's state hooks. The app features dynamic animations and responsive design, providing a seamless and engaging user experience.",
+    sourceCodeHref: "https://github.com/AyushKatre05/Candy-Crush.git",
+    liveWebsiteHref: "https://candycrushbyak.netlify.app",
   },
 ];
