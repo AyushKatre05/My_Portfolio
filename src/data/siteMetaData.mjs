@@ -9,9 +9,6 @@ export const siteMetadata = {
   
   siteRepo: "https://github.com/AyushKatre05",
   siteLogo: "/favicon.ico",
-  image: "/static/homepage.png",
-  twitterImage: "/static/homepage.png",
-  socialBanner: "/static/homepage.png",
   email: "ayushkatre1801@gmail.com",
   github: "https://github.com/AyushKatre05",
   twitter: "https://twitter.com/ayush_katre_05",
