@@ -37,7 +37,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Form Builder Using AI",
-    favicon: "/images/projects/logos/a.ico",
+    favicon: "/images/projects/logos/formbuilder.png",
     imageUrl: ["/images/projects/formbuilder.jpg"],
     description:
       "Form builder was developed using Next.js for a modern, server-side rendered frontend, and Clerk for secure user authentication and management. NeonDB was utilized for scalable and flexible database management, handling form data and user interactions efficiently. ShadCN was integrated to enhance the user interface with sleek, customizable components. The app leverages AI to dynamically generate and customize forms based on user inputs and requirements, providing an intuitive and adaptive form-building experience.",
@@ -46,7 +46,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "Interview Preperation App",
-    favicon: "/images/projects/logos/b.ico",
+    favicon: "/images/projects/logos/interview.png",
     imageUrl: ["/images/projects/interview.jpeg"],
     description:
       "The AI-driven interview preparation app was developed using Next.js for a robust and scalable frontend, with Drizzle ORM and PostgreSQL handling the backend data management. Drizzle ORM simplifies database interactions and integrates seamlessly with PostgreSQL to manage user data and interview content. The app leverages AI to generate personalized interview questions and provide feedback, enhancing the preparation process.",
@@ -56,7 +56,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "LinkedIn Clone",
-    favicon: "/images/projects/logos/c.ico",
+    favicon: "/images/projects/logos/linkedin.png",
     imageUrl: ["/images/projects/linkedin.jpg"],
     description:
       "The LinkedIn-style application was built using JavaScript with Next.js for a modern and performant server-side rendering experience. MongoDB was used for scalable data storage, handling user profiles, connections, and posts. The application features user authentication, profile management, and a dynamic feed of posts and updates. Next.js's API routes and MongoDB flexible schema enabled efficient data handling and real-time updates.",
@@ -65,7 +65,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "WhatsApp Chat Analyzer",
-    favicon: "/images/projects/logos/e.ico",
+    favicon: "/images/projects/logos/chat.png",
     imageUrl: ["/images/projects/whatsapp.png"],
     description:
       "The WhatsApp chat analyzer was developed using Python, leveraging libraries such as Pandas for data manipulation and Matplotlib for visualization. The tool processes exported WhatsApp chat logs, extracting key metrics such as message frequency, active times, and word usage. Natural Language Processing (NLP) techniques are employed to analyze sentiment and identify common themes, providing insightful summaries and visual representations of chat data.",
@@ -75,7 +75,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "Snake Game",
-    favicon: "/favicon.ico",
+    favicon: "/images/projects/logos/snake.png",
     imageUrl: ["/images/projects/snakegame.png"],
     description:
       "The Snake game was developed using React, utilizing its component-based structure to manage game state and rendering. The game logic, including snake movement and collision detection, is handled with React hooks for a smooth and responsive experience. User inputs are captured via event handlers, and the game features dynamic updates and real-time interactions to create an engaging and nostalgic gameplay experience.",
@@ -84,7 +84,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "Candy Crush",
-    favicon: "/images/projects/logos/d.ico",
+    favicon: "/images/projects/logos/candy.png",
     imageUrl: ["/images/projects/candycrush.png"],
     description:
       "The Candy Crush app was developed using React, leveraging its component-based architecture to create interactive gameplay elements. State management for game progress and user interactions was handled efficiently with React's state hooks. The app features dynamic animations and responsive design, providing a seamless and engaging user experience.",
