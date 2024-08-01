@@ -40,8 +40,10 @@ export default function LandingHero() {
                 Ayush Katre
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
-                A Full Stack Developer who builds interactive user interfaces and enhances capabilities to integrate smart, data-driven
-                features into applications, optimizing functionality and user engagement
+                A Full Stack Developer who builds interactive user interfaces
+                and enhances capabilities to integrate smart, data-driven
+                features into applications, optimizing functionality and user
+                engagement
               </span>
             </FadeUp>
           </AnimatePresence>
