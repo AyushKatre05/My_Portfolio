@@ -83,12 +83,12 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://snakegamebyak.netlify.app",
   },
   {
-    name: "Candy Crush",
-    favicon: "/images/projects/logos/candy.png",
-    imageUrl: ["/images/projects/candycrush.png"],
+    name: "AI MCQ Generator",
+    favicon: "/images/projects/logos/mcqlogo.jpeg",
+    imageUrl: ["/images/projects/mcq.jpg"],
     description:
-      "The Candy Crush app was developed using React, leveraging its component-based architecture to create interactive gameplay elements. State management for game progress and user interactions was handled efficiently with React's state hooks. The app features dynamic animations and responsive design, providing a seamless and engaging user experience.",
-    sourceCodeHref: "https://github.com/AyushKatre05/Candy-Crush.git",
-    liveWebsiteHref: "https://candycrushbyak.netlify.app",
+      "This is a MCQ generator application using Next.js with Framer Motion for a modern, animated frontend. The backend, built with Flask, integrates machine learning to dynamically generate questions. This project effectively combines web development with advanced ML techniques, creating an interactive and intelligent application.",
+    sourceCodeHref: "https://github.com/AyushKatre05/MCQ-ML-Frontend.git",
+    liveWebsiteHref: "https://mcq-ml-app-ayush.vercel.app",
   },
 ];
