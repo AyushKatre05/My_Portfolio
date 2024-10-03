@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import { AnimatePresence } from "framer-motion";
 
 import FadeUp from "@/animation/fade-up";
@@ -8,7 +7,7 @@ import heroProfileImg from "@/public/images/Hackathon.jpg";
 
 export default function AboutHero() {
   return (
-    <div className="mx-auto mt-0 flex max-w-7xl flex-col items-center gap-6 px-6 pt-20 text-center sm:px-14 md:mt-20 md:px-20 lg:mt-0 lg:flex-row lg:text-left">
+    <div className="mx-auto flex max-w-7xl flex-col items-center gap-6 px-6 pt-20 text-center sm:px-14 md:mt-20 md:px-20 lg:mt-0 lg:flex-row lg:text-left">
       <div className="w-full sm:w-1/2 md:w-2/3 lg:inline-block lg:h-full lg:w-1/2">
         <AnimatePresence>
           <FadeUp key="hero-image" duration={0.6}>
@@ -23,7 +22,7 @@ export default function AboutHero() {
           </FadeUp>
         </AnimatePresence>
       </div>
-      <div className="sm:1/2 mt-10 w-full lg:w-1/2">
+      <div className="mt-10 w-full sm:w-1/2 lg:w-1/2">
         <AnimatePresence>
           <FadeUp key="title-greeting" duration={0.6}>
             <h1 className="text-6xl font-bold text-accent sm:text-7xl md:text-6xl lg:text-5xl xl:text-7xl">
@@ -32,13 +31,19 @@ export default function AboutHero() {
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-            I am a Full Stack Developer adept at building robust, scalable, and efficient web applications. My skill set spans databases, server-side logic, and creating seamless user interfaces. Additionally, I am proficient in TypeScript and Next.js, which allows me to enhance code quality and performance while developing modern, server-rendered front-end components that ensure a smooth user experience.
+              I am a Full Stack Developer adept at building robust, scalable,
+              and efficient web applications. My skill set spans databases,
+              server-side logic, and creating seamless user interfaces.
+              Additionally, I am proficient in TypeScript and Next.js, which
+              allows me to enhance code quality and performance while developing
+              modern, server-rendered front-end components that ensure a smooth
+              user experience.
             </p>
           </FadeUp>
           <FadeUp key="description-2" duration={0.6} delay={0.4}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              Explore my latest projects showcasing my expertise in Reactjs,
-              Nextjs, Javascript, Typescript and web development.
+              Explore my latest projects showcasing my expertise in React.js,
+              Next.js, JavaScript, TypeScript, and web development.
             </p>
           </FadeUp>
           <FadeRight
