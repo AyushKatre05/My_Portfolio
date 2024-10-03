@@ -2,15 +2,14 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Bachelor Of Engineering",
+    title: "Secondary School Education",
     organisation: {
-      name: "DIT Pune",
-      href: "https://engg.dypvp.edu.in/",
+      name: "Model Convent & Sci. Jr College Goregaon",
+      href: "https://schools.org.in/gondiya/27110510402/model-convent-goregaon.html",
     },
-    date: "2022-2026",
-    location: "Pimpri, Pune",
-    description:
-      "Relevant courses included Data Structures and Algorithms, Web Design, Computer Communication Network, Hardware, Software Automation, Computer Networks and Database Management.",
+    date: "2019-2020",
+    location: "Goregaon, Gondia",
+    description: "Completed course with 91%.",
   },
   {
     title: "Higher Secondary School",
@@ -23,13 +22,14 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     description: "Completed the course in PCMB with 81%",
   },
   {
-    title: "Secondary School Education",
+    title: "Bachelor Of Engineering",
     organisation: {
-      name: "Model Convent & Sci. Jr College Goregaon",
-      href: "https://schools.org.in/gondiya/27110510402/model-convent-goregaon.html",
+      name: "DIT Pune",
+      href: "https://engg.dypvp.edu.in/",
     },
-    date: "2019-2020",
-    location: "Goregaon, Gondia",
-    description: "Completed course with 91%.",
-  },
+    date: "2022-2026",
+    location: "Pimpri, Pune",
+    description:
+      "Relevant courses included Data Structures and Algorithms, Web Design, Computer Communication Network, Hardware, Software Automation, Computer Networks and Database Management.",
+  }
 ];

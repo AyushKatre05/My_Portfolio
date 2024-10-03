@@ -32,16 +32,7 @@ export default function AboutHero() {
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              A hobbyist Web Application Developer currently diving deep into
-              MERN Stack. I excel in navigating the realms of databases,
-              server-side logic, and creating seamless user interfaces. My
-              proficiency in MERN Stack allows me to develop robust, scalable,
-              and efficient web applications. Additionally, I am skilled in
-              TypeScript and Next.js, enabling me to enhance code quality and
-              performance while implementing modern, server-rendered
-              applications. I am adept at handling both the back-end and
-              front-end components, ensuring a smooth and cohesive user
-              experience.
+            I am a Full Stack Developer adept at building robust, scalable, and efficient web applications. My skill set spans databases, server-side logic, and creating seamless user interfaces. Additionally, I am proficient in TypeScript and Next.js, which allows me to enhance code quality and performance while developing modern, server-rendered front-end components that ensure a cohesive and smooth user experience.
             </p>
           </FadeUp>
           <FadeUp key="description-2" duration={0.6} delay={0.4}>

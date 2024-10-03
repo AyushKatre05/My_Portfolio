@@ -74,13 +74,13 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://whatsapp-chat-analysis-ak.streamlit.app",
   },
   {
-    name: "Snake Game",
-    favicon: "/images/projects/logos/snake.png",
-    imageUrl: ["/images/projects/snakegame.png"],
+    name: "Funky Cursor",
+    favicon: "/images/projects/logos/cursor.jpeg",
+    imageUrl: ["/images/projects/Npm.webp"],
     description:
-      "The Snake game was developed using React, utilizing its component-based structure to manage game state and rendering. The game logic, including snake movement and collision detection, is handled with React hooks for a smooth and responsive experience. User inputs are captured via event handlers, and the game features dynamic updates and real-time interactions to create an engaging and nostalgic gameplay experience.",
-    sourceCodeHref: "https://github.com/AyushKatre05/Snake-Game.git",
-    liveWebsiteHref: "https://snakegamebyak.netlify.app",
+      "I developed the funky cursor npm package using Node.js and TypeScript, leveraging TypeScript's type safety to create customizable cursor trail effects. The package includes dynamic trail options like particles, sparkles, and glowing lines, ensuring smooth and visually engaging user interactions.",
+    sourceCodeHref: "https://github.com/AyushKatre05/Funky-Cursor-Docs.git",
+    liveWebsiteHref: "https://funky-cursor-docs.vercel.app",
   },
   {
     name: "AI MCQ Generator",
