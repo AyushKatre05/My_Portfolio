@@ -19,7 +19,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     },
     date: "2021-2022",
     location: "Goregaon, Gondia",
-    description: "Completed the course in PCMB with 81%",
+    description: "Completed the course in PCMB with 81%.",
   },
   {
     title: "Bachelor Of Engineering",
@@ -30,6 +30,6 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     date: "2022-2026",
     location: "Pimpri, Pune",
     description:
-      "Relevant courses included Data Structures and Algorithms, Web Design, Computer Communication Network, Hardware, Software Automation, Computer Networks and Database Management.",
-  }
+      "Relevant courses included Data Structures and Algorithms, Web Design, Computer Communication Network, Hardware, Software Automation, Computer Networks, and Database Management.",
+  },
 ];

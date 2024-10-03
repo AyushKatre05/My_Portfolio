@@ -12,7 +12,6 @@ import PythonSvg from "@/public/icons/python.svg";
 
 // Libraries
 import ReactjsSvg from "@/public/icons/reactjs.svg";
-
 import ReduxSvg from "@/public/icons/redux.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
 import MuiSvg from "@/public/icons/mui.svg";
@@ -22,17 +21,17 @@ import Jupyter from "@/public/icons/jupyter-svgrepo-com.svg";
 
 // Backend
 import NodejsSvg from "@/public/icons/nodejs.svg";
-import Flask from "@/public/icons/flask-svgrepo-com.svg"
-import FastApi from "@/public/icons/fastapi-svgrepo-com.svg"
+import Flask from "@/public/icons/flask-svgrepo-com.svg";
+import FastApi from "@/public/icons/fastapi-svgrepo-com.svg";
 
 // Database and ORMS
 import MongoDBSvg from "@/public/icons/mongodb.svg";
 import PostgressSvg from "@/public/icons/postgresql.svg";
-import MySQL from "@/public/icons/mysql-svgrepo-com.svg"
-import Firebase from "@/public/icons/firebase-svgrepo-com.svg"
-import Cloudinary from "@/public/icons/cloudinary-svgrepo-com.svg"
-import Prisma from "@/public/icons/prisma.svg"
-import Mongoose from "@/public/icons/mongoose-svgrepo-com.svg"
+import MySQL from "@/public/icons/mysql-svgrepo-com.svg";
+import Firebase from "@/public/icons/firebase-svgrepo-com.svg";
+import Cloudinary from "@/public/icons/cloudinary-svgrepo-com.svg";
+import Prisma from "@/public/icons/prisma.svg";
+import Mongoose from "@/public/icons/mongoose-svgrepo-com.svg";
 
 // Tools and Tech
 import GitSvg from "@/public/icons/git.svg";
@@ -49,9 +48,9 @@ import Figma from "@/public/icons/figma-svgrepo-com.svg";
 import Canva from "@/public/icons/canva-svgrepo-com.svg";
 
 // Deployment
-import Netlify from "@/public/icons/netlify-svgrepo-com.svg"
-import Vercel from "@/public/icons/vercel-icon-svgrepo-com.svg"
-import Render from "@/public/icons/return-svgrepo-com.svg"
+import Netlify from "@/public/icons/netlify-svgrepo-com.svg";
+import Vercel from "@/public/icons/vercel-icon-svgrepo-com.svg";
+import Render from "@/public/icons/return-svgrepo-com.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
@@ -192,7 +191,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Docker",
         icon: DockerSvg,
       },
-
       {
         name: "Kubernetes",
         icon: Kubernetes,

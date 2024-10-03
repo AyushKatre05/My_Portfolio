@@ -32,7 +32,13 @@ export default function AboutHero() {
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-            I am a Full Stack Developer adept at building robust, scalable, and efficient web applications. My skill set spans databases, server-side logic, and creating seamless user interfaces. Additionally, I am proficient in TypeScript and Next.js, which allows me to enhance code quality and performance while developing modern, server-rendered front-end components that ensure a cohesive and smooth user experience.
+            I am a Full Stack Developer adept at building robust, scalable,
+            and efficient web applications. My skill set spans databases,
+            server-side logic, and creating seamless user interfaces.
+            Additionally, I am proficient in TypeScript and Next.js, which
+            allows me to enhance code quality and performance while developing
+            modern, server-rendered front-end components that ensure a smooth
+            user experience.
             </p>
           </FadeUp>
           <FadeUp key="description-2" duration={0.6} delay={0.4}>
