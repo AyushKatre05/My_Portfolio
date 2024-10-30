@@ -36,32 +36,32 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
-    name: "Form Builder Using AI",
-    favicon: "/images/projects/logos/formbuilder.png",
-    imageUrl: ["/images/projects/formbuilder.jpg"],
+    name: "SiteSynth - AI game builder",
+    favicon: "/images/projects/logos/sitesynthlogo.png",
+    imageUrl: ["/images/projects/sitesynth.png"],
     description:
-      "Form builder was developed using Next.js for a modern, server-side rendered frontend, and Clerk for secure user authentication and management. NeonDB was utilized for scalable and flexible database management, handling form data and user interactions efficiently. ShadCN was integrated to enhance the user interface with sleek, customizable components. The app leverages AI to dynamically generate and customize forms based on user inputs and requirements, providing an intuitive and adaptive form-building experience.",
-    sourceCodeHref: "https://github.com/AyushKatre05/Form-Maker.git",
-    liveWebsiteHref: "https://google-form-clone-builder.vercel.app",
+      "SiteSynth is an AI-powered game development platform that enables users to build, preview, and modify games in real time. With live previews, downloadable code, and in-preview customization, SiteSynth streamlines the creation of interactive games from concept to completion.",
+    sourceCodeHref: "https://github.com/AyushKatre05/SiteSynth-AI.git",
+    liveWebsiteHref: "https://sitesynth-ai.onrender.com",
   },
   {
-    name: "Interview Preperation App",
-    favicon: "/images/projects/logos/interview.png",
-    imageUrl: ["/images/projects/interview.jpeg"],
+    name: "Doodle AI",
+    favicon: "/images/projects/logos/doodle.png",
+    imageUrl: ["/images/projects/doodleAI.avif"],
     description:
-      "The AI-driven interview preparation app was developed using Next.js for a robust and scalable frontend, with Drizzle ORM and PostgreSQL handling the backend data management. Drizzle ORM simplifies database interactions and integrates seamlessly with PostgreSQL to manage user data and interview content. The app leverages AI to generate personalized interview questions and provide feedback, enhancing the preparation process.",
+      "Created a Doodle AI that interpret user drawings and return the identified object or concept. Implement a web interface with a canvas for drawing, connecting it to a backend that processes the doodle and provides responses.",
     sourceCodeHref:
-      "https://github.com/AyushKatre05/Interview-Preperation-App.git",
-    liveWebsiteHref: "https://interview-preperation-app.vercel.app",
+      "https://github.com/AyushKatre05/Doodle-AI.git",
+    liveWebsiteHref: "https://ak-doodle-ai.vercel.app",
   },
   {
-    name: "LinkedIn Clone",
-    favicon: "/images/projects/logos/linkedin.png",
-    imageUrl: ["/images/projects/linkedin.jpg"],
+    name: "Funky Cursor",
+    favicon: "/images/projects/logos/cursor.jpeg",
+    imageUrl: ["/images/projects/Npm.webp"],
     description:
-      "The LinkedIn-style application was built using JavaScript with Next.js for a modern and performant server-side rendering experience. MongoDB was used for scalable data storage, handling user profiles, connections, and posts. The application features user authentication, profile management, and a dynamic feed of posts and updates. Next.js's API routes and MongoDB flexible schema enabled efficient data handling and real-time updates.",
-    sourceCodeHref: "https://github.com/AyushKatre05/LinkedIn.git",
-    liveWebsiteHref: "https://linked-in-ak.vercel.app",
+      "I developed the funky cursor npm package using Node.js and TypeScript, leveraging TypeScript's type safety to create customizable cursor trail effects. The package includes dynamic trail options like particles, sparkles, and glowing lines, ensuring smooth and visually engaging user interactions.",
+    sourceCodeHref: "https://github.com/AyushKatre05/Funky-Cursor-Docs.git",
+    liveWebsiteHref: "https://funky-cursor-docs.vercel.app",
   },
   {
     name: "WhatsApp Chat Analyzer",
@@ -74,21 +74,21 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://whatsapp-chat-analysis-ak.streamlit.app",
   },
   {
-    name: "Funky Cursor",
-    favicon: "/images/projects/logos/cursor.jpeg",
-    imageUrl: ["/images/projects/Npm.webp"],
-    description:
-      "I developed the funky cursor npm package using Node.js and TypeScript, leveraging TypeScript's type safety to create customizable cursor trail effects. The package includes dynamic trail options like particles, sparkles, and glowing lines, ensuring smooth and visually engaging user interactions.",
-    sourceCodeHref: "https://github.com/AyushKatre05/Funky-Cursor-Docs.git",
-    liveWebsiteHref: "https://funky-cursor-docs.vercel.app",
-  },
-  {
-    name: "AI MCQ Generator",
+    name: "ML MCQ Generator",
     favicon: "/images/projects/logos/mcqlogo.jpeg",
     imageUrl: ["/images/projects/mcq.jpg"],
     description:
       "This is a MCQ generator application using Next.js with Framer Motion for a modern, animated frontend. The backend, built with Flask, integrates machine learning to dynamically generate questions. This project effectively combines web development with advanced ML techniques, creating an interactive and intelligent application.",
     sourceCodeHref: "https://github.com/AyushKatre05/MCQ-ML-Frontend.git",
     liveWebsiteHref: "https://mcq-ml-app-ayush.vercel.app",
+  },
+  {
+    name: "CMS for Social Media",
+    favicon: "/images/projects/logos/cmslogo.png",
+    imageUrl: ["/images/projects/cms.png"],
+    description:
+      "AI Driven Content Management System is a project aimed at providing organizations with tools to automatically generate content for their social media posts and gain insights from the posts' performance. It simplifies content creation and enables data-driven decision-making by Content Generation and Insights",
+    sourceCodeHref: "https://github.com/AyushKatre05/Team-Omega-Hackathon-2024.git",
+    liveWebsiteHref: "https://team-omega-hackathon-2024.vercel.app",
   },
 ];
