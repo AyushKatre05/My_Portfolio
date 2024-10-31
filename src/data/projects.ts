@@ -50,8 +50,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     imageUrl: ["/images/projects/doodleAI.avif"],
     description:
       "Created a Doodle AI that interpret user drawings and return the identified object or concept. Implement a web interface with a canvas for drawing, connecting it to a backend that processes the doodle and provides responses.",
-    sourceCodeHref:
-      "https://github.com/AyushKatre05/Doodle-AI.git",
+    sourceCodeHref: "https://github.com/AyushKatre05/Doodle-AI.git",
     liveWebsiteHref: "https://ak-doodle-ai.vercel.app",
   },
   {
@@ -69,8 +68,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     imageUrl: ["/images/projects/whatsapp.png"],
     description:
       "The WhatsApp chat analyzer was developed using Python, leveraging libraries such as Pandas for data manipulation and Matplotlib for visualization. The tool processes exported WhatsApp chat logs, extracting key metrics such as message frequency, active times, and word usage. Natural Language Processing (NLP) techniques are employed to analyze sentiment and identify common themes, providing insightful summaries and visual representations of chat data.",
-    sourceCodeHref:
-      "https://github.com/AyushKatre05/Whatsapp-Chat-Analysis.git",
+    sourceCodeHref: "https://github.com/AyushKatre05/Whatsapp-Chat-Analysis.git",
     liveWebsiteHref: "https://whatsapp-chat-analysis-ak.streamlit.app",
   },
   {
