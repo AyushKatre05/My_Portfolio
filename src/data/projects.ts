@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { type ProjectCardProps } from "@/components/projects/project-card";
 import { type ProjectShowcaseListItem } from "@/components/projects/project-showcase-list";
 
