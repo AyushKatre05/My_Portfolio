@@ -25,6 +25,16 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 2,
+    title: "Funky Cursor",
+    href: "https://funky-cursor-docs.vercel.app",
+    tags: ["NextJs", "TypeScript", "Tailwind", "Framer Motion"],
+    image: {
+      LIGHT: "/images/projects/chatlight.jpg",
+      DARK: "/images/projects/chat.png",
+    },
+  },
+  {
+    index: 2,
     title: "Chat App",
     href: "https://chat-application-ak.vercel.app",
     tags: ["NextJs", "TypeScript", "Redis", "Cloudinary", "Framer Motion"],
@@ -53,6 +63,15 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "Created a Doodle AI that interpret user drawings and return the identified object or concept. Implement a web interface with a canvas for drawing, connecting it to a backend that processes the doodle and provides responses.",
     sourceCodeHref: "https://github.com/AyushKatre05/Doodle-AI.git",
     liveWebsiteHref: "https://ak-doodle-ai.vercel.app",
+  },
+  {
+    name: "",
+    favicon: "/images/projects/logos/cursor.jpeg",
+    imageUrl: ["/images/projects/Npm.webp"],
+    description:
+      "I developed the funky cursor npm package using Node.js and TypeScript, leveraging TypeScript's type safety to create customizable cursor trail effects. The package includes dynamic trail options like particles, sparkles, and glowing lines, ensuring smooth and visually engaging user interactions.",
+    sourceCodeHref: "https://github.com/AyushKatre05/Funky-Cursor-Docs.git",
+    liveWebsiteHref: "",
   },
   {
     name: "Funky Cursor",
