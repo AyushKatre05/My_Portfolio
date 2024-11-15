@@ -15,32 +15,22 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 1,
+    title: "Funky Cursor",
+    href: "https://funky-cursor-docs.vercel.app",
+    tags: ["NextJs", "TypeScript", "Tailwind", "Framer Motion", "Webpack"],
+    image: {
+      LIGHT: "/images/projects/Npm.webp",
+      DARK: "/images/projects/Npm.webp",
+    },
+  },
+  {
+    index: 2,
     title: "Ecommerce App",
     href: "https://full-stack-ecommerce-with-admin-dashboard-ak.vercel.app",
     tags: ["NextJs", "Javascript", "MongoDB", "Redux", "Firebase"],
     image: {
       LIGHT: "/images/projects/ecommercelight.jpg",
       DARK: "/images/projects/ecommerce.jpg",
-    },
-  },
-  {
-    index: 2,
-    title: "Funky Cursor",
-    href: "https://funky-cursor-docs.vercel.app",
-    tags: ["NextJs", "TypeScript", "Tailwind", "Framer Motion"],
-    image: {
-      LIGHT: "/images/projects/chatlight.jpg",
-      DARK: "/images/projects/chat.png",
-    },
-  },
-  {
-    index: 2,
-    title: "Chat App",
-    href: "https://chat-application-ak.vercel.app",
-    tags: ["NextJs", "TypeScript", "Redis", "Cloudinary", "Framer Motion"],
-    image: {
-      LIGHT: "/images/projects/chatlight.jpg",
-      DARK: "/images/projects/chat.png",
     },
   },
 ];
@@ -63,24 +53,6 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "Created a Doodle AI that interpret user drawings and return the identified object or concept. Implement a web interface with a canvas for drawing, connecting it to a backend that processes the doodle and provides responses.",
     sourceCodeHref: "https://github.com/AyushKatre05/Doodle-AI.git",
     liveWebsiteHref: "https://ak-doodle-ai.vercel.app",
-  },
-  {
-    name: "",
-    favicon: "/images/projects/logos/cursor.jpeg",
-    imageUrl: ["/images/projects/Npm.webp"],
-    description:
-      "I developed the funky cursor npm package using Node.js and TypeScript, leveraging TypeScript's type safety to create customizable cursor trail effects. The package includes dynamic trail options like particles, sparkles, and glowing lines, ensuring smooth and visually engaging user interactions.",
-    sourceCodeHref: "https://github.com/AyushKatre05/Funky-Cursor-Docs.git",
-    liveWebsiteHref: "",
-  },
-  {
-    name: "Funky Cursor",
-    favicon: "/images/projects/logos/cursor.jpeg",
-    imageUrl: ["/images/projects/Npm.webp"],
-    description:
-      "I developed the funky cursor npm package using Node.js and TypeScript, leveraging TypeScript's type safety to create customizable cursor trail effects. The package includes dynamic trail options like particles, sparkles, and glowing lines, ensuring smooth and visually engaging user interactions.",
-    sourceCodeHref: "https://github.com/AyushKatre05/Funky-Cursor-Docs.git",
-    liveWebsiteHref: "https://funky-cursor-docs.vercel.app",
   },
   {
     name: "WhatsApp Chat Analyzer",
@@ -108,5 +80,14 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "AI Driven Content Management System is a project aimed at providing organizations with tools to automatically generate content for their social media posts and gain insights from the posts' performance. It simplifies content creation and enables data-driven decision-making by Content Generation and Insights",
     sourceCodeHref: "https://github.com/AyushKatre05/Team-Omega-Hackathon-2024.git",
     liveWebsiteHref: "https://team-omega-hackathon-2024.vercel.app",
+  },
+  {
+    name: "Imagica",
+    favicon: "/images/projects/logos/interview.png",
+    imageUrl: ["/images/projects/AiImage.png"],
+    description:
+      "A tools which automatically generate free images as per your need. It is widely used for any website to generate the images according to thier needs",
+    sourceCodeHref: "https://github.com/AyushKatre05/Imagica.git",
+    liveWebsiteHref: "https://imagica-ak.vercel.app",
   },
 ];
