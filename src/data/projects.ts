@@ -55,21 +55,12 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://ak-doodle-ai.vercel.app",
   },
   {
-    name: "WhatsApp Chat Analyzer",
-    favicon: "/images/projects/logos/chat.png",
-    imageUrl: ["/images/projects/whatsapp.png"],
-    description:
-      "The WhatsApp chat analyzer was developed using Python, leveraging libraries such as Pandas for data manipulation and Matplotlib for visualization. The tool processes exported WhatsApp chat logs, extracting key metrics such as message frequency, active times, and word usage. Natural Language Processing (NLP) techniques are employed to analyze sentiment and identify common themes, providing insightful summaries and visual representations of chat data.",
-    sourceCodeHref: "https://github.com/AyushKatre05/Whatsapp-Chat-Analysis.git",
-    liveWebsiteHref: "https://whatsapp-chat-analysis-ak.streamlit.app",
-  },
-  {
-    name: "ML MCQ Generator",
+    name: "NLP QuizBot",
     favicon: "/images/projects/logos/mcqlogo.jpeg",
-    imageUrl: ["/images/projects/mcq.jpg"],
+    imageUrl: ["/images/projects/quizbot.png"],
     description:
-      "This is a MCQ generator application using Next.js with Framer Motion for a modern, animated frontend. The backend, built with Flask, integrates machine learning to dynamically generate questions. This project effectively combines web development with advanced ML techniques, creating an interactive and intelligent application.",
-    sourceCodeHref: "https://github.com/AyushKatre05/MCQ-ML-Frontend.git",
+      "This is a MCQ generator application using Next.js with Framer Motion for a modern, animated frontend. The backend, built with Flask, integrates Natural Language Processing to dynamically generate questions. This project effectively combines web development with advanced ML techniques, creating an interactive and intelligent application.",
+    sourceCodeHref: "https://github.com/AyushKatre05/NLP-QuizBot-Frontend.git",
     liveWebsiteHref: "https://mcq-ml-app-ayush.vercel.app",
   },
   {
