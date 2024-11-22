@@ -37,6 +37,24 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
+    name: "AuraSpace",
+    favicon: "/images/projects/logos/interview.png",
+    imageUrl: ["/images/projects/auraspace.png"],
+    description:
+      "AuraSpace is a modern portfolio builder designed to showcase your work with creativity and elegance. Featuring a sleek interface and glowing aura-inspired design, it empowers professionals and creatives to craft visually stunning online portfolios effortlessly. AuraSpace is the perfect blend of innovation and simplicity, tailored for tech-savvy users.",
+    sourceCodeHref: "https://github.com/AyushKatre05/AuraSpace.git",
+    liveWebsiteHref: "https://auraspace.vercel.app",
+  },
+  {
+    name: "Innova",
+    favicon: "/images/projects/logos/interview.png",
+    imageUrl: ["/images/projects/innova.webp"],
+    description:
+      "Innova is an AI-driven interview preparation platform that redefines the way candidates prepare for job opportunities. Combining intelligent algorithms with a professional interface, it provides personalized feedback and insights to help users ace their interviews. Innova is the ultimate tool for anyone looking to elevate their career prospects through advanced technology.",
+    sourceCodeHref: "https://github.com/AyushKatre05/Innova.git",
+    liveWebsiteHref: "https://innova-ai.vercel.app",
+  },
+  {
     name: "SiteSynth - AI game builder",
     favicon: "/images/projects/logos/sitesynthlogo.png",
     imageUrl: ["/images/projects/sitesynth.png"],
