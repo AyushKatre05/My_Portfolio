@@ -19,8 +19,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "https://funky-cursor-docs.vercel.app",
     tags: ["NextJs", "TypeScript", "Tailwind", "Framer Motion", "Webpack"],
     image: {
-      LIGHT: "/images/projects/Npm.webp",
-      DARK: "/images/projects/Npm.webp",
+      LIGHT: "/images/projects/cursortrail.png",
+      DARK: "/images/projects/cursortrail.png",
     },
   },
   {
@@ -48,7 +48,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Innova",
     favicon: "/images/projects/logos/interview.jpg",
-    imageUrl: ["/images/projects/innova.webp"],
+    imageUrl: ["/images/projects/innova.png"],
     description:
       "Innova is an AI-driven interview preparation platform that redefines the way candidates prepare for job opportunities. Combining intelligent algorithms with a professional interface, it provides personalized feedback and insights to help users ace their interviews. Innova is the ultimate tool for anyone looking to elevate their career prospects through advanced technology.",
     sourceCodeHref: "https://github.com/AyushKatre05/Innova.git",
@@ -66,20 +66,20 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Doodle AI",
     favicon: "/images/projects/logos/doodle.png",
-    imageUrl: ["/images/projects/doodleAI.avif"],
+    imageUrl: ["/images/projects/doodleAI.png"],
     description:
       "Created a Doodle AI that interpret user drawings and return the identified object or concept. Implement a web interface with a canvas for drawing, connecting it to a backend that processes the doodle and provides responses.",
     sourceCodeHref: "https://github.com/AyushKatre05/Doodle-AI.git",
     liveWebsiteHref: "https://ak-doodle-ai.vercel.app",
   },
   {
-    name: "NLP QuizBot",
-    favicon: "/images/projects/logos/mcqlogo.jpeg",
-    imageUrl: ["/images/projects/quizbot.png"],
+    name: "LinkedIn",
+    favicon: "/images/projects/logos/linkedin-logo.png",
+    imageUrl: ["/images/projects/linkedin.png"],
     description:
-      "This is a MCQ generator application using Next.js with Framer Motion for a modern, animated frontend. The backend, built with Flask, integrates Natural Language Processing to dynamically generate questions. This project effectively combines web development with advanced ML techniques, creating an interactive and intelligent application.",
-    sourceCodeHref: "https://github.com/AyushKatre05/NLP-QuizBot-Frontend.git",
-    liveWebsiteHref: "https://mcq-ml-app-ayush.vercel.app",
+      "Built a LinkedIn-inspired web application using Next.js, MongoDB, and Cloudinary. The platform enables users to create professional profiles, connect with others, and share posts with multimedia support. Seamlessly integrates optimized image uploads via Cloudinary for a smooth user experience.",
+    sourceCodeHref: "https://github.com/AyushKatre05/LinkedIn.git",
+    liveWebsiteHref: "https://linkedin-ak.vercel.app",
   },
   {
     name: "CMS for Social Media",
@@ -98,5 +98,14 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "A tools which automatically generate free images as per your need. It is widely used for any website to generate the images according to thier needs",
     sourceCodeHref: "https://github.com/AyushKatre05/Imagica.git",
     liveWebsiteHref: "https://imagica-ak.vercel.app",
+  },
+  {
+    name: "NLP QuizBot",
+    favicon: "/images/projects/logos/mcqlogo.jpeg",
+    imageUrl: ["/images/projects/quizbot.png"],
+    description:
+      "This is a MCQ generator application using Next.js with Framer Motion for a modern, animated frontend. The backend, built with Flask, integrates Natural Language Processing to dynamically generate questions. This project effectively combines web development with advanced ML techniques, creating an interactive and intelligent application.",
+    sourceCodeHref: "https://github.com/AyushKatre05/NLP-QuizBot-Frontend.git",
+    liveWebsiteHref: "https://mcq-ml-app-ayush.vercel.app",
   },
 ];
