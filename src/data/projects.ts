@@ -25,12 +25,12 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 2,
-    title: "Ecommerce App",
-    href: "https://full-stack-ecommerce-with-admin-dashboard-ak.vercel.app",
-    tags: ["NextJs", "Javascript", "MongoDB", "Redux", "Firebase"],
+    title: "Innova",
+    href: "https://innova-ai.vercel.app",
+    tags: ["NextJs", "PostgreSQL", "ShadCN", "Drizzle-ORM", "TailwindCSS"],
     image: {
-      LIGHT: "/images/projects/ecommercelight.jpg",
-      DARK: "/images/projects/ecommerce.jpg",
+      LIGHT: "/images/projects/innova-light.png",
+      DARK: "/images/projects/innova.png",
     },
   },
 ];
@@ -44,15 +44,6 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "AuraSpace is a modern portfolio builder designed to showcase your work with creativity and elegance. Featuring a sleek interface and glowing aura-inspired design, it empowers professionals and creatives to craft visually stunning online portfolios effortlessly. AuraSpace is the perfect blend of innovation and simplicity, tailored for tech-savvy users.",
     sourceCodeHref: "https://github.com/AyushKatre05/AuraSpace.git",
     liveWebsiteHref: "https://auraspace.vercel.app",
-  },
-  {
-    name: "Innova",
-    favicon: "/images/projects/logos/interview.jpg",
-    imageUrl: ["/images/projects/innova.png"],
-    description:
-      "Innova is an AI-driven interview preparation platform that redefines the way candidates prepare for job opportunities. Combining intelligent algorithms with a professional interface, it provides personalized feedback and insights to help users ace their interviews. Innova is the ultimate tool for anyone looking to elevate their career prospects through advanced technology.",
-    sourceCodeHref: "https://github.com/AyushKatre05/Innova.git",
-    liveWebsiteHref: "https://innova-ai.vercel.app",
   },
   {
     name: "SiteSynth - AI game builder",
