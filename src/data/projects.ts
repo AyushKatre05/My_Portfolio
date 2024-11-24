@@ -95,8 +95,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     favicon: "/images/projects/logos/mcqlogo.jpeg",
     imageUrl: ["/images/projects/quizbot.png"],
     description:
-      "This is a MCQ generator application using Next.js with Framer Motion for a modern, animated frontend. The backend, built with Flask, integrates Natural Language Processing to dynamically generate questions. This project effectively combines web development with advanced ML techniques, creating an interactive and intelligent application.",
+      "This is a Quiz generator using NLP made with Next.js, Typescript and Framer Motion for a modern, animated frontend. The backend, built with Flask, integrates Natural Language Processing to dynamically generate questions. This project effectively combines web development with advanced ML techniques, creating an interactive and intelligent application.",
     sourceCodeHref: "https://github.com/AyushKatre05/NLP-QuizBot-Frontend.git",
-    liveWebsiteHref: "https://mcq-ml-app-ayush.vercel.app",
+    liveWebsiteHref: "https://nlp-quizbot.vercel.app",
   },
 ];
