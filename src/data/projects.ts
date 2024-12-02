@@ -46,6 +46,15 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://auraspace.vercel.app",
   },
   {
+    name: "LinkUp",
+    favicon: "/images/projects/logos/linkup-logo.png",
+    imageUrl: ["/images/projects/linkup.png"],
+    description:
+      "Linkup is a community-driven chat platform where users can create and manage their own communities, fostering interaction and engagement. The project utilizes modern technologies like TypeScript, Next.js, and ShadCN. It leverages Socket.IO for real-time communication, Zod for robust data validation, and Supabase with PostgreSQL for backend and database functionality.",
+    sourceCodeHref: "https://github.com/AyushKatre05/LinkUp-Client.git",
+    liveWebsiteHref: "https://link-up-ak.vercel.app",
+  },
+  {
     name: "SiteSynth - AI game builder",
     favicon: "/images/projects/logos/sitesynthlogo.png",
     imageUrl: ["/images/projects/sitesynth.png"],
