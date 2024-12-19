@@ -1,5 +1,6 @@
 import { GithubIcon, LinkedinIcon, TwitterIcon } from "@/components/icons";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -9,30 +10,30 @@ export default function Footer() {
           ©2024 Ayush Katre
         </span>
         <div className="flex gap-6">
-          <a
-            href={siteMetadata.github}
+          <Link
+            href={"https://github.com/AyushKatre05"}
             target="_blank"
             className="h-5 w-5"
             aria-label="link to Github"
           >
             <GithubIcon className="text-accent transition-colors duration-150 hover:text-accent-foreground" />
-          </a>
-          <a
-            href={siteMetadata.twitter}
+          </Link>
+          <Link
+            href={"https://twitter.com/ayush_katre_05"}
             target="_blank"
             className="h-5 w-5"
             aria-label="link to Twitter"
           >
             <TwitterIcon className="text-accent transition-colors duration-150 hover:text-accent-foreground" />
-          </a>
-          <a
-            href={siteMetadata.linkedin}
+          </Link>
+          <Link
+            href={"https://www.linkedin.com/in/ayush-katre"}
             target="_blank"
             className="h-5 w-5"
             aria-label="link to Linkedin"
           >
             <LinkedinIcon className="text-accent transition-colors duration-150 hover:text-accent-foreground" />
-          </a>
+          </Link>
         </div>
       </div>
     </footer>
