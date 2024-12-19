@@ -1,5 +1,4 @@
 import { GithubIcon, LinkedinIcon, TwitterIcon } from "@/components/icons";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
 import Link from "next/link";
 
 export default function Footer() {
