@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="flex w-full flex-col items-center gap-10 bg-transparent px-4 py-6 sm:px-8 sm:py-8 md:px-12 md:py-10">
       <div className="flex w-full flex-col items-center justify-between gap-6 text-center md:flex-row md:justify-between lg:mx-auto lg:max-w-7xl">
         <span className="text-sm text-foreground sm:text-base">
-          ©2024 Ayush Katre
+          ©2025 Ayush Katre
         </span>
         <div className="flex gap-6">
           <Link
