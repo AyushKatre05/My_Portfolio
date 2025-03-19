@@ -1,16 +1,10 @@
 import { SiExpress, SiNextdotjs } from "react-icons/si";
 import { FramerMotionIcon, ReactRouterDomIcon } from "@/components/icons";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
-
-// Languages
-import HtmlSvg from "@/public/icons/html.svg";
-import CsssSvg from "@/public/icons/css.svg";
 import SassSvg from "@/public/icons/sass.svg";
 import JavascriptSvg from "@/public/icons/javascript.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
 import PythonSvg from "@/public/icons/python.svg";
-
-// Libraries
 import ReactjsSvg from "@/public/icons/reactjs.svg";
 import ReduxSvg from "@/public/icons/redux.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
@@ -18,13 +12,10 @@ import MuiSvg from "@/public/icons/mui.svg";
 import ViteSvg from "@/public/icons/vite.svg";
 import ShadcnSvg from "@/public/icons/shadcnui.svg";
 import Jupyter from "@/public/icons/jupyter-svgrepo-com.svg";
-
-// Backend
+import aws from "@/public/icons/aws.svg";
 import NodejsSvg from "@/public/icons/nodejs.svg";
 import Flask from "@/public/icons/flask-svgrepo-com.svg";
 import FastApi from "@/public/icons/fastapi-svgrepo-com.svg";
-
-// Database and ORMS
 import MongoDBSvg from "@/public/icons/mongodb.svg";
 import PostgressSvg from "@/public/icons/postgresql.svg";
 import MySQL from "@/public/icons/mysql-svgrepo-com.svg";
@@ -32,8 +23,6 @@ import Firebase from "@/public/icons/firebase-svgrepo-com.svg";
 import Cloudinary from "@/public/icons/cloudinary-svgrepo-com.svg";
 import Prisma from "@/public/icons/prisma.svg";
 import Mongoose from "@/public/icons/mongoose-svgrepo-com.svg";
-
-// Tools and Tech
 import GitSvg from "@/public/icons/git.svg";
 import Redis from "@/public/icons/redis-svgrepo-com.svg";
 import DockerSvg from "@/public/icons/docker.svg";
@@ -46,15 +35,16 @@ import NPM from "@/public/icons/npm-svgrepo-com.svg";
 import GitHub from "@/public/icons/github.svg";
 import Figma from "@/public/icons/figma-svgrepo-com.svg";
 import Canva from "@/public/icons/canva-svgrepo-com.svg";
-
-// Deployment
+import tensorflow from "@/public/icons/tensorflow-svgrepo-com.svg";
 import Netlify from "@/public/icons/netlify-svgrepo-com.svg";
 import Vercel from "@/public/icons/vercel-icon-svgrepo-com.svg";
 import Render from "@/public/icons/return-svgrepo-com.svg";
+import graphql from "@/public/icons/graphql.svg";
+import opencv from "@/public/icons/opencv-svgrepo-com.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
-    sectionName: "Frontend",
+    sectionName: "Stacks",
     skills: [
       {
         name: "Nextjs",
@@ -75,14 +65,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Python",
         icon: PythonSvg,
-      },
-      {
-        name: "HTML",
-        icon: HtmlSvg,
-      },
-      {
-        name: "CSS",
-        icon: CsssSvg,
       },
       {
         name: "SASS",
@@ -116,11 +98,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "ShadCN",
         icon: ShadcnSvg,
       },
-    ],
-  },
-  {
-    sectionName: "Backend",
-    skills: [
       {
         name: "Nodejs",
         icon: NodejsSvg,
@@ -137,11 +114,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "FastApi",
         icon: FastApi,
       },
-    ],
-  },
-  {
-    sectionName: "Databases and ORMs",
-    skills: [
       {
         name: "MongoDB",
         icon: MongoDBSvg,
@@ -170,11 +142,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Mongoose",
         icon: Mongoose,
       },
-    ],
-  },
-  {
-    sectionName: "Tools and Technologies",
-    skills: [
       {
         name: "Git",
         icon: GitSvg,
@@ -227,14 +194,13 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Jupyter",
         icon: Jupyter,
       },
-    ],
-  },
-  {
-    sectionName: "Deployments",
-    skills: [
       {
         name: "Vercel",
         icon: Vercel,
+      },
+      {
+        name: "AWS",
+        icon: aws,
       },
       {
         name: "Render",
@@ -244,6 +210,19 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Netlify",
         icon: Netlify,
       },
+      {
+        name: "Tensorflow",
+        icon: tensorflow,
+      },
+      {
+        name: "GraphQL",
+        icon: graphql,
+      },
+      {
+        name: "OpenCV",
+        icon: opencv,
+      },
     ],
+    
   },
 ];
