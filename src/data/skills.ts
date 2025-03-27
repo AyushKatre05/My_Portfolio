@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { SiExpress, SiNextdotjs } from "react-icons/si";
 import { FramerMotionIcon, ReactRouterDomIcon } from "@/components/icons";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
