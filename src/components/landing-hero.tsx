@@ -8,6 +8,7 @@ export default function LandingHero() {
   const ref = useRef<HTMLDivElement>(null);
 
   let progress = 0;
+  /* eslint-disable */
   const { current: elContainer } = ref;
 
   if (elContainer) {
@@ -41,10 +42,7 @@ export default function LandingHero() {
                 Ayush Katre
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
-                A Full Stack Developer who builds interactive user interfaces
-                and enhances capabilities to integrate smart, data-driven
-                features into applications, optimizing functionality and user
-                engagement for a seamless experience. Work with Generative AI, Deep learning, and Machine learning models to create intelligent and innovative solutions.
+              A Full Stack Developer who builds interactive user interfaces and enhances application capabilities by integrating smart, data-driven features. With a strong foundation in Machine Learning (ML), Deep Learning (DL), and Generative AI (GenAI), including Large Language Models (LLMs), I develop intelligent solutions that optimize functionality, personalize user experiences, and enable seamless, AI-powered interactions across platforms.
               </span>
               <div className="mt-8 flex justify-center">
                 <Link href="/Ayush-Katre.pdf" download>
