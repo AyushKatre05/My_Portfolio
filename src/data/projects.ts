@@ -33,45 +33,19 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
       DARK: "/images/projects/innova.png",
     },
   },
+  {
+    index: 3,
+    title: "Weblit",
+    href: "https://weblit.vercel.app",
+    tags: ["NextJs", "CodeMirror", "NextAuth", "MongoDB", "TailwindCSS"],
+    image: {
+      LIGHT: "/images/projects/weblit-light.png",
+      DARK: "/images/projects/weblit-dark.png",
+    },
+  },
 ];
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
-  {
-    name: "AuraSpace",
-    favicon: "/images/projects/logos/auraspace-logo.jpeg",
-    imageUrl: ["/images/projects/auraspace.png"],
-    description:
-      "AuraSpace is a modern portfolio builder designed to showcase your work with creativity and elegance. Featuring a sleek interface and glowing aura-inspired design, it empowers professionals and creatives to craft visually stunning online portfolios effortlessly. AuraSpace is the perfect blend of innovation and simplicity, tailored for tech-savvy users.",
-    sourceCodeHref: "https://github.com/AyushKatre05/AuraSpace.git",
-    liveWebsiteHref: "https://auraspace.vercel.app",
-  },
-  {
-    name: "LinkUp",
-    favicon: "/images/projects/logos/linkup-logo.png",
-    imageUrl: ["/images/projects/linkup.png"],
-    description:
-      "Linkup is a community-driven chat platform where users can create and manage their own communities, fostering interaction and engagement. The project utilizes modern technologies like TypeScript, Next.js, and ShadCN. It leverages Socket.IO for real-time communication, Zod for robust data validation, and Supabase with PostgreSQL for backend and database functionality.",
-    sourceCodeHref: "https://github.com/AyushKatre05/LinkUp-Client.git",
-    liveWebsiteHref: "https://link-up-ak.vercel.app",
-  },
-  {
-    name: "SiteSynth - AI game builder",
-    favicon: "/images/projects/logos/sitesynthlogo.png",
-    imageUrl: ["/images/projects/sitesynth.png"],
-    description:
-      "SiteSynth is an AI-powered game development platform that enables users to build, preview, and modify games in real time. With live previews, downloadable code, and in-preview customization, SiteSynth streamlines the creation of interactive games from concept to completion.",
-    sourceCodeHref: "https://github.com/AyushKatre05/SiteSynth-AI.git",
-    liveWebsiteHref: "https://sitesynth-ai.onrender.com",
-  },
-  {
-    name: "Doodle AI",
-    favicon: "/images/projects/logos/doodle.png",
-    imageUrl: ["/images/projects/doodleAI.png"],
-    description:
-      "Created a Doodle AI that interpret user drawings and return the identified object or concept. Implement a web interface with a canvas for drawing, connecting it to a backend that processes the doodle and provides responses.",
-    sourceCodeHref: "https://github.com/AyushKatre05/Doodle-AI.git",
-    liveWebsiteHref: "https://ak-doodle-ai.vercel.app",
-  },
   {
     name: "LinkedIn",
     favicon: "/images/projects/logos/linkedin-logo.png",
@@ -107,5 +81,23 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "This is a Quiz generator using NLP made with Next.js, Typescript and Framer Motion for a modern, animated frontend. The backend, built with Flask, integrates Natural Language Processing to dynamically generate questions. This project effectively combines web development with advanced ML techniques, creating an interactive and intelligent application.",
     sourceCodeHref: "https://github.com/AyushKatre05/NLP-QuizBot-Frontend.git",
     liveWebsiteHref: "https://nlp-quizbot.vercel.app",
+  },
+  {
+    name: "SiteSynth - AI game builder",
+    favicon: "/images/projects/logos/sitesynthlogo.png",
+    imageUrl: ["/images/projects/sitesynth.png"],
+    description:
+      "SiteSynth is an AI-powered game development platform that enables users to build, preview, and modify games in real time. With live previews, downloadable code, and in-preview customization, SiteSynth streamlines the creation of interactive games from concept to completion.",
+    sourceCodeHref: "https://github.com/AyushKatre05/SiteSynth-AI.git",
+    liveWebsiteHref: "https://sitesynth-ai.onrender.com",
+  },
+  {
+    name: "Doodle AI",
+    favicon: "/images/projects/logos/doodle.png",
+    imageUrl: ["/images/projects/doodleAI.png"],
+    description:
+      "Created a Doodle AI that interpret user drawings and return the identified object or concept. Implement a web interface with a canvas for drawing, connecting it to a backend that processes the doodle and provides responses.",
+    sourceCodeHref: "https://github.com/AyushKatre05/Doodle-AI.git",
+    liveWebsiteHref: "https://ak-doodle-ai.vercel.app",
   },
 ];

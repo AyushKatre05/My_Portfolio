@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import FadeUp from "@/animation/fade-up";
+import Link from "next/link";
 
 export default function LandingHero() {
   const [scrollY, setScrollY] = useState(0);
@@ -36,15 +37,26 @@ export default function LandingHero() {
         <div className="mx-auto max-w-7xl">
           <AnimatePresence>
             <FadeUp key="title-main" duration={0.6}>
-              <h1 className="bg-accent bg-clip-text py-2 text-5xl font-bold text-transparent sm:text-6xl md:text-7xl xl:text-8xl">
+              <h1 className="bg-accent bg-clip-text py-5 text-5xl font-bold text-transparent sm:text-6xl md:text-7xl xl:text-8xl">
                 Ayush Katre
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
                 A Full Stack Developer who builds interactive user interfaces
                 and enhances capabilities to integrate smart, data-driven
                 features into applications, optimizing functionality and user
-                engagement
+                engagement for a seamless experience. Work with Generative AI, Deep learning, and Machine learning models to create intelligent and innovative solutions.
               </span>
+              <div className="mt-8 flex justify-center">
+                <Link href="/Ayush-Katre.pdf" download>
+                  <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="pointer-events-auto rounded-2xl bg-accent px-6 py-3 text-base font-semibold text-white shadow-md transition hover:bg-opacity-90"
+                  >
+                    Download Resume
+                  </motion.button>
+                </Link>
+              </div>
             </FadeUp>
           </AnimatePresence>
         </div>
