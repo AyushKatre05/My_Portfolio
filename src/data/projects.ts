@@ -56,6 +56,15 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://linkedin-ak.vercel.app",
   },
   {
+    name: "Colossus",
+    favicon: "/images/projects/logos/sitesynthlogo.png",
+    imageUrl: ["/images/projects/colossus.png"],
+    description:
+      "Colossus is an AI-powered form generator designed to create dynamic, customizable forms with minimal effort. It intelligently builds forms based on user input or prompts, streamlining data collection for surveys, applications, and more. With smart field detection and intuitive UI, Colossus saves time and boosts productivity.",
+    sourceCodeHref: "https://github.com/AyushKatre05/Colossus.git",
+    liveWebsiteHref: "https://colossus-ai.vercel.app",
+  },
+  {
     name: "CMS for Social Media",
     favicon: "/images/projects/logos/cmslogo.png",
     imageUrl: ["/images/projects/cms.png"],
@@ -74,22 +83,13 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://imagica-ak.vercel.app",
   },
   {
-    name: "NLP QuizBot",
+    name: "DSA Prep",
     favicon: "/images/projects/logos/mcqlogo.jpeg",
-    imageUrl: ["/images/projects/quizbot.png"],
+    imageUrl: ["/images/projects/dsaprep.png"],
     description:
-      "This is a Quiz generator using NLP made with Next.js, Typescript and Framer Motion for a modern, animated frontend. The backend, built with Flask, integrates Natural Language Processing to dynamically generate questions. This project effectively combines web development with advanced ML techniques, creating an interactive and intelligent application.",
-    sourceCodeHref: "https://github.com/AyushKatre05/NLP-QuizBot-Frontend.git",
-    liveWebsiteHref: "https://nlp-quizbot.vercel.app",
-  },
-  {
-    name: "SiteSynth - AI game builder",
-    favicon: "/images/projects/logos/sitesynthlogo.png",
-    imageUrl: ["/images/projects/sitesynth.png"],
-    description:
-      "SiteSynth is an AI-powered game development platform that enables users to build, preview, and modify games in real time. With live previews, downloadable code, and in-preview customization, SiteSynth streamlines the creation of interactive games from concept to completion.",
-    sourceCodeHref: "https://github.com/AyushKatre05/SiteSynth-AI.git",
-    liveWebsiteHref: "https://sitesynth-ai.onrender.com",
+      "Compiled and solved company-wise DSA questions from LeetCode, targeting top tech firms such as Amazon, Google, and Microsoft. Covered a wide range of topics including arrays, trees, and dynamic programming. Each problem includes optimized solutions and explanations. Designed to build interview-level coding proficiency and confidence.",
+    sourceCodeHref: "https://github.com/AyushKatre05/DSA-Questions-CompanyWise.git",
+    liveWebsiteHref: "https://dsa-companywise.streamlit.app",
   },
   {
     name: "Doodle AI",
