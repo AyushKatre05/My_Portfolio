@@ -45,13 +45,13 @@ export default function LandingHero() {
               A Full Stack Developer who builds interactive user interfaces and enhances application capabilities by integrating smart, data-driven features. With a strong foundation in Machine Learning (ML), Deep Learning (DL), and Generative AI (GenAI), including Large Language Models (LLMs), I develop intelligent solutions that optimize functionality, personalize user experiences, and enable seamless, AI-powered interactions across platforms.
               </span>
               <div className="mt-8 flex justify-center">
-                <Link href="/Ayush-Katre.pdf" download>
+                <Link href="/Resume.pdf" download>
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     className="pointer-events-auto rounded-2xl bg-accent px-6 py-3 text-base font-semibold text-white shadow-md transition hover:bg-opacity-90"
                   >
-                    Download Resume
+                    My Resume
                   </motion.button>
                 </Link>
               </div>
