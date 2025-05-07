@@ -12,6 +12,8 @@ export default function Home() {
     <>
       <CursorTrailCanvas className="pointer-events-none fixed inset-0 -z-10 h-full w-full" />
       <Head>
+      <title>{siteMetadata.title}</title>
+      <meta name="description" content={siteMetadata.description} />
         {siteMetadata.googleSiteVerification && (
           <meta
             name="google-site-verification"
