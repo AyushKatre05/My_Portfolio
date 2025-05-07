@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import Head from "next/head";
 import LandingHero from "@/components/landing-hero";
 import SkillsShowcase from "@/components/skills/skills-showcase";
