@@ -25,6 +25,16 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 2,
+    title: "PixelUI",
+    href: "https://pixelui.ayushkatre.tech",
+    tags: ["NextJs", "TypeScript", "ShadCN", "MDX", "v0"],
+    image: {
+      LIGHT: "/images/projects/pixelui.gif",
+      DARK: "/images/projects/pixelui.gif",
+    },
+  },
+  {
+    index: 3,
     title: "Innova",
     href: "https://innova-ai.vercel.app",
     tags: ["NextJs", "PostgreSQL", "ShadCN", "Drizzle-ORM", "TailwindCSS"],
@@ -34,7 +44,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     },
   },
   {
-    index: 3,
+    index: 4,
     title: "Weblit",
     href: "https://weblit.vercel.app",
     tags: ["NextJs", "CodeMirror", "NextAuth", "MongoDB", "TailwindCSS"],
