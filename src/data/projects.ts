@@ -16,7 +16,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 1,
     title: "Funky Cursor",
-    href: "https://funky-cursor-docs.vercel.app",
+    href: "https://funkycursor.ayushkatre.tech",
     tags: ["NextJs", "TypeScript", "Tailwind", "Framer Motion", "Webpack"],
     image: {
       LIGHT: "/images/projects/cursortrail.png",
