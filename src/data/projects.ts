@@ -79,7 +79,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     favicon: "/images/projects/logos/cmslogo.png",
     imageUrl: ["/images/projects/cms.png"],
     description:
-      "AI Driven Content Management System is a project aimed at providing organizations with tools to automatically generate content for their social media posts and gain insights from the posts' performance. It simplifies content creation and enables data-driven decision-making by Content Generation and Insights",
+      "AI Driven Content Management System is a project aimed at providing organizations with tools to automatically generate content for their social media posts and gain insights from the posts' performance",
     sourceCodeHref: "https://github.com/AyushKatre05/Team-Omega-Hackathon-2024.git",
     liveWebsiteHref: "https://team-omega-hackathon-2024.vercel.app",
   },
@@ -88,7 +88,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     favicon: "/images/projects/logos/imagica-logo.jpg",
     imageUrl: ["/images/projects/AiImage.png"],
     description:
-      "A tools which automatically generate free images as per your need. It is widely used for any website to generate the images according to thier needs",
+      "A tools which automatically generate free images as per your need. It is widely used for any website to generate the images according to thier needs and requirements. It is a free tool which can be used by anyone to generate images.",
     sourceCodeHref: "https://github.com/AyushKatre05/Imagica.git",
     liveWebsiteHref: "https://imagica-ak.vercel.app",
   },
@@ -97,7 +97,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     favicon: "/images/projects/logos/mcqlogo.jpeg",
     imageUrl: ["/images/projects/dsaprep.png"],
     description:
-      "Compiled and solved company-wise DSA questions from LeetCode, targeting top tech firms such as Amazon, Google, and Microsoft. Covered a wide range of topics including arrays, trees, and dynamic programming. Each problem includes optimized solutions and explanations. Designed to build interview-level coding proficiency and confidence.",
+      "Compiled and solved company-wise DSA questions from LeetCode, targeting top tech firms such as Amazon, Google, and Microsoft. Covered a wide range of topics including arrays, trees, and dynamic programming.",
     sourceCodeHref: "https://github.com/AyushKatre05/DSA-Questions-CompanyWise.git",
     liveWebsiteHref: "https://dsa-companywise.streamlit.app",
   },
