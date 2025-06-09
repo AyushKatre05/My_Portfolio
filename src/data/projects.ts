@@ -80,7 +80,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     imageUrl: ["/images/projects/cms.png"],
     description:
       "AI Driven Content Management System is a project aimed at providing organizations with tools to automatically generate content for their social media posts and gain insights from the posts' performance",
-    sourceCodeHref: "https://github.com/AyushKatre05/Team-Omega-Hackathon-2024.git",
+    sourceCodeHref:
+      "https://github.com/AyushKatre05/Team-Omega-Hackathon-2024.git",
     liveWebsiteHref: "https://team-omega-hackathon-2024.vercel.app",
   },
   {
@@ -98,7 +99,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     imageUrl: ["/images/projects/dsaprep.png"],
     description:
       "Compiled and solved company-wise DSA questions from LeetCode, targeting top tech firms such as Amazon, Google, and Microsoft. Covered a wide range of topics including arrays, trees, and dynamic programming.",
-    sourceCodeHref: "https://github.com/AyushKatre05/DSA-Questions-CompanyWise.git",
+    sourceCodeHref:
+      "https://github.com/AyushKatre05/DSA-Questions-CompanyWise.git",
     liveWebsiteHref: "https://dsa-companywise.streamlit.app",
   },
   {

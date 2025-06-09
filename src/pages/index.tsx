@@ -14,8 +14,8 @@ export default function Home() {
     <>
       <CursorTrailCanvas className="pointer-events-none fixed inset-0 -z-10 h-full w-full" />
       <Head>
-      <title>Ayush Katre | Software Developer</title>
-      <meta name="description" content={siteMetadata.description} />
+        <title>Ayush Katre | Software Developer</title>
+        <meta name="description" content={siteMetadata.description} />
         {siteMetadata.googleSiteVerification && (
           <meta
             name="google-site-verification"

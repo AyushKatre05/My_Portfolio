@@ -1,12 +1,19 @@
-
-import React from 'react';
-import { motion } from 'framer-motion';
+import React from "react";
+import { motion } from "framer-motion";
 import ProjectCard from "@/components/projects/project-card";
 import { PROJECTS_CARD } from "@/data/projects";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 // FadeUp animation component
-const FadeUp = ({ children, duration = 0.6, delay = 0 }: { children: React.ReactNode; duration?: number; delay?: number }) => {
+const FadeUp = ({
+  children,
+  duration = 0.6,
+  delay = 0,
+}: {
+  children: React.ReactNode;
+  duration?: number;
+  delay?: number;
+}) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }}
@@ -20,20 +27,20 @@ const FadeUp = ({ children, duration = 0.6, delay = 0 }: { children: React.React
 
 export default function Projects() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-purple-50 dark:from-black dark:to-gray-900 py-16 px-4">
-      <div className="max-w-7xl mx-auto">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-purple-50 px-4 py-16 dark:from-black dark:to-gray-900">
+      <div className="mx-auto max-w-7xl">
         {/* Header Section */}
-        <div className="text-center mb-16 animate-fade-in">
+        <div className="animate-fade-in mb-16 text-center">
           <FadeUp>
-            <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 dark:from-purple-400 dark:to-pink-400 bg-clip-text text-transparent mb-6">
+            <h1 className="mb-6 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-5xl font-bold text-transparent dark:from-purple-400 dark:to-pink-400 md:text-7xl">
               Projects
             </h1>
           </FadeUp>
           <FadeUp delay={0.2}>
-            <p className="text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto leading-relaxed">
+            <p className="mx-auto max-w-3xl text-xl leading-relaxed text-slate-600 dark:text-slate-300">
               Some of the projects I&apos;d like to share
             </p>
-            <div className="w-24 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto mt-8 rounded-full"></div>
+            <div className="mx-auto mt-8 h-1 w-24 rounded-full bg-gradient-to-r from-purple-500 to-pink-500"></div>
           </FadeUp>
         </div>
 
@@ -57,17 +64,17 @@ export default function Projects() {
         {/* Call to Action Section */}
         <FadeUp delay={0.8}>
           <div className="mx-auto mt-20 max-w-5xl text-center">
-            <div className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-purple-100 dark:border-gray-700 hover:shadow-2xl transition-all duration-500">
-              <h2 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 dark:from-purple-400 dark:to-pink-400 bg-clip-text text-transparent mb-6">
+            <div className="rounded-2xl border border-purple-100 bg-white/80 p-8 shadow-lg backdrop-blur-sm transition-all duration-500 hover:shadow-2xl dark:border-gray-700 dark:bg-gray-900/80">
+              <h2 className="mb-6 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-2xl font-bold text-transparent dark:from-purple-400 dark:to-pink-400 md:text-3xl">
                 I am currently building new projects.
               </h2>
-              <p className="text-base md:text-xl text-slate-600 dark:text-slate-300 leading-relaxed">
+              <p className="text-base leading-relaxed text-slate-600 dark:text-slate-300 md:text-xl">
                 Visit my github to see some of the latest projects{" "}
                 <a
                   href={`${siteMetadata.github}?tab=repositories`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-semibold text-purple-600 dark:text-purple-400 hover:text-purple-700 dark:hover:text-purple-300 underline underline-offset-2 transition-colors duration-300"
+                  className="font-semibold text-purple-600 underline underline-offset-2 transition-colors duration-300 hover:text-purple-700 dark:text-purple-400 dark:hover:text-purple-300"
                 >
                   Github
                 </a>

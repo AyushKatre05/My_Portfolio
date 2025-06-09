@@ -42,7 +42,14 @@ export default function LandingHero() {
                 Ayush Katre
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
-              A Full Stack Developer who builds interactive user interfaces and enhances application capabilities by integrating smart, data-driven features. With a strong foundation in Machine Learning (ML), Deep Learning (DL), and Generative AI (GenAI), including Large Language Models (LLMs), I develop intelligent solutions that optimize functionality, personalize user experiences, and enable seamless, AI-powered interactions across platforms.
+                A Full Stack Developer who builds interactive user interfaces
+                and enhances application capabilities by integrating smart,
+                data-driven features. With a strong foundation in Machine
+                Learning (ML), Deep Learning (DL), and Generative AI (GenAI),
+                including Large Language Models (LLMs), I develop intelligent
+                solutions that optimize functionality, personalize user
+                experiences, and enable seamless, AI-powered interactions across
+                platforms.
               </span>
               <div className="mt-8 flex justify-center">
                 <Link href="/Resume.pdf" download>

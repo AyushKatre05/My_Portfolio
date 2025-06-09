@@ -224,6 +224,5 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: opencv,
       },
     ],
-    
   },
 ];
