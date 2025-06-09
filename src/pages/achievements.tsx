@@ -1,5 +1,5 @@
 import React from "react";
-import { Trophy, Award, Star, Medal, Target, Zap } from "lucide-react";
+import { Trophy, Award, Star, Medal, Target } from "lucide-react";
 
 const Achievements = () => {
   const achievements = [

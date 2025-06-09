@@ -1,14 +1,5 @@
 import React from "react";
-import {
-  Briefcase,
-  Calendar,
-  MapPin,
-  ArrowRight,
-  Building,
-  Code,
-  Users,
-  Lightbulb,
-} from "lucide-react";
+import { Calendar, MapPin, ArrowRight, Building, Code } from "lucide-react";
 
 const Experience = () => {
   const experiences = [
