@@ -25,6 +25,16 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 2,
+    title: "Replix",
+    href: "https://replix.ayushkatre.tech",
+    tags: ["NextJs", "FastAPI", "LLM", "Python", "TypeScript"],
+    image: {
+      LIGHT: "/images/projects/replix.png",
+      DARK: "/images/projects/replix-dark.png",
+    },
+  },
+  {
+    index: 3,
     title: "PixelUI",
     href: "https://pixelui.ayushkatre.tech",
     tags: ["NextJs", "TypeScript", "ShadCN", "MDX", "v0"],
@@ -33,29 +43,27 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
       DARK: "/images/projects/pixelui.gif",
     },
   },
-  {
-    index: 3,
-    title: "Innova",
-    href: "https://innova-ai.vercel.app",
-    tags: ["NextJs", "PostgreSQL", "ShadCN", "Drizzle-ORM", "TailwindCSS"],
-    image: {
-      LIGHT: "/images/projects/innova-light.png",
-      DARK: "/images/projects/innova.png",
-    },
-  },
-  {
-    index: 4,
-    title: "Weblit",
-    href: "https://weblit.vercel.app",
-    tags: ["NextJs", "CodeMirror", "NextAuth", "MongoDB", "TailwindCSS"],
-    image: {
-      LIGHT: "/images/projects/weblit-light.png",
-      DARK: "/images/projects/weblit-dark.png",
-    },
-  },
 ];
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
+  {
+    name: "Innova",
+    favicon: "/images/projects/innova.png",
+    imageUrl: ["/images/projects/innova.png"],
+    description:
+      "Innova is a Interview Preparation Platform that helps students to prepare for interviews by providing them with a platform to practice  mock interviews. It is built using Next.js, PostgreSQL, and ShadCN. It provides a platform for students to practice mock interviews and get feedback from AI",
+    sourceCodeHref: "https://github.com/AyushKatre05/Innova.git",
+    liveWebsiteHref: "https://innova-ai.vercel.app",
+  },
+  {
+    name: "Weblit",
+    favicon: "/images/projects/weblit.png",
+    imageUrl: ["/images/projects/weblit.png"],
+    description:
+      "Weblit is a code editor that allows users to write and run code in the browser. It is built using Next.js, TypeScript, and ShadCN. It provides a platform for users to write and run code in the browser without any setup.",
+    sourceCodeHref: "https://github.com/AyushKatre05/Weblit.git",
+    liveWebsiteHref: "https://weblit.vercel.app",
+  },
   {
     name: "LinkedIn",
     favicon: "/images/projects/logos/linkedin-logo.png",
@@ -85,15 +93,6 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://team-omega-hackathon-2024.vercel.app",
   },
   {
-    name: "Imagica",
-    favicon: "/images/projects/logos/imagica-logo.jpg",
-    imageUrl: ["/images/projects/AiImage.png"],
-    description:
-      "A tools which automatically generate free images as per your need. It is widely used for any website to generate the images according to thier needs and requirements. It is a free tool which can be used by anyone to generate images.",
-    sourceCodeHref: "https://github.com/AyushKatre05/Imagica.git",
-    liveWebsiteHref: "https://imagica-ak.vercel.app",
-  },
-  {
     name: "DSA Prep",
     favicon: "/images/projects/logos/mcqlogo.jpeg",
     imageUrl: ["/images/projects/dsaprep.png"],
@@ -102,14 +101,5 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     sourceCodeHref:
       "https://github.com/AyushKatre05/DSA-Questions-CompanyWise.git",
     liveWebsiteHref: "https://dsa-companywise.streamlit.app",
-  },
-  {
-    name: "Doodle AI",
-    favicon: "/images/projects/logos/doodle.png",
-    imageUrl: ["/images/projects/doodleAI.png"],
-    description:
-      "Created a Doodle AI that interpret user drawings and return the identified object or concept. Implement a web interface with a canvas for drawing, connecting it to a backend that processes the doodle and provides responses.",
-    sourceCodeHref: "https://github.com/AyushKatre05/Doodle-AI.git",
-    liveWebsiteHref: "https://ak-doodle-ai.vercel.app",
   },
 ];
