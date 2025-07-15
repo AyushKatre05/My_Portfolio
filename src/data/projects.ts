@@ -5,6 +5,16 @@ import { type ProjectShowcaseListItem } from "@/components/projects/project-show
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
+    title: "Gov360AI",
+    href: "https://gov-rfp-360-ai.vercel.app",
+    tags: ["NextJs", "TypeScript", "Gemini LLM", "Node.js", "Zustand"],
+    image: {
+      LIGHT: "/images/projects/rfp.png",
+      DARK: "/images/projects/rfp.png",
+    },
+  },
+  {
+    index: 1,
     title: "Excalidraw",
     href: "https://excalidraw-ak.vercel.app",
     tags: ["NextJs", "TypeScript", "ShadCN", "Convex", "Kinde"],
@@ -14,7 +24,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     },
   },
   {
-    index: 1,
+    index: 2,
     title: "Funky Cursor",
     href: "https://funkycursor.ayushkatre.tech",
     tags: ["NextJs", "TypeScript", "Tailwind", "Framer Motion", "Webpack"],
@@ -24,7 +34,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     },
   },
   {
-    index: 2,
+    index: 3,
     title: "Replix",
     href: "https://replix.ayushkatre.tech",
     tags: ["NextJs", "FastAPI", "LLM", "Python", "TypeScript"],
@@ -34,7 +44,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     },
   },
   {
-    index: 3,
+    index: 4,
     title: "PixelUI",
     href: "https://pixelui.ayushkatre.tech",
     tags: ["NextJs", "TypeScript", "ShadCN", "MDX", "v0"],
