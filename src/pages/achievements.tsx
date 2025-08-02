@@ -14,11 +14,11 @@ const Achievements = () => {
     },
     {
       id: 2,
-      title: "GFG 400+ days of Streak",
+      title: "GFG 450+ days of Streak",
       category: "Learning",
       year: "2025",
       description:
-        "Achieved over 400 days of continuous coding practice on GeeksforGeeks",
+        "Achieved over 450 days of continuous coding practice on GeeksforGeeks",
       icon: <Star className="h-6 w-6" />,
       color: "from-purple-400 to-indigo-500",
     },
@@ -34,7 +34,7 @@ const Achievements = () => {
     },
     {
       id: 4,
-      title: "Won 7 Hackathons",
+      title: "Attended 18 Hackathons",
       category: "Hackathon",
       year: "2025",
       description:
@@ -45,12 +45,32 @@ const Achievements = () => {
     {
       id: 5,
       title: "Open Source Contributor",
-      category: "Open Source",
+      category: "GSSoC' 2025",
       year: "2025",
       description:
-        "Contributed to various open source projects, enhancing community-driven development",
+        "Contributor to Girlscript Summer of Code 2025, enhancing open-source projects",
       icon: <Award className="h-6 w-6" />,
       color: "from-purple-500 to-purple-700",
+    },
+    {
+      id: 6,
+      title: "Won HSBC Hackathon ",
+      category: "Hackathon",
+      year: "2025",
+      description:
+        "Earned a Pre-Placement Interview (PPI) by winning the HSBC Hackathon.",
+      icon: <Trophy className="h-6 w-6" />,
+      color: "from-purple-600 to-pink-500",
+    },
+    {
+      id: 7,
+      title: "2X Odoo Hackathon Finalist",
+      category: "Hackathon",
+      year: "2025",
+      description:
+        "Achieved finalist status in the Odoo Hackathon twice, demonstrating exceptional skills in problem-solving and innovation.",
+      icon: <Star className="h-6 w-6" />,
+      color: "from-purple-400 to-blue-500",
     },
   ];
 
