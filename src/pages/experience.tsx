@@ -8,7 +8,7 @@ const Experience = () => {
       title: "Full Stack Developer Intern",
       company: "YatriCabs",
       location: "Mumbai, India",
-      period: "2024",
+      period: "June 2024 - August 2024",
       type: "Internship",
       description:
         "Leading development of scalable web applications using React, Node.js, and cloud technologies. Mentoring junior developers and architecting solutions for complex business requirements.",
@@ -26,7 +26,7 @@ const Experience = () => {
       title: "Data Science Intern",
       company: "Recode Hive",
       location: "Australia",
-      period: "2025 - present",
+      period: "May 2025 - July 2025",
       type: "Internship",
       description:
         "Developing data-driven solutions to enhance user experience and optimize business processes. Collaborating with cross-functional teams to implement machine learning models and data analytics.",
@@ -38,6 +38,43 @@ const Experience = () => {
       technologies: ["Python", "Pandas", "Scikit-learn", "TensorFlow", "SQL"],
       icon: <Building className="h-5 w-5" />,
       color: "from-purple-600 to-pink-500",
+    },
+    {
+      id: 3,
+      title: "Trainee Software Engineer",
+      company: "Cognizant",
+      location: "Hybrid",
+      period: "June 2025 - August 2025",
+      type: "Trainee",
+      description:
+        "Participating in a comprehensive training program to enhance software development skills. Gaining hands-on experience in Agile methodologies, DevOps practices, and modern software engineering tools.",
+      achievements: [
+        "Completed training with top 10% performance",
+        "Contributed to open-source projects improving code quality",
+        "Developed a personal project using React and Spring Boot",
+      ],
+      technologies: ["React", "Spring Boot", "Java", "Git", "Agile"],
+      icon: <Calendar className="h-5 w-5" />,
+      color: "from-purple-700 to-indigo-500",
+    },
+    {
+      id: 4,
+      title: "Open Source Contributor",
+      company: "GSSOC",
+      location: "Remote",
+      period: "August 2025 - Present",
+      type: "Open Source",
+      description:
+        "Contributing to various open-source projects to enhance software quality and community engagement. Collaborating with developers worldwide to implement features, fix bugs, and improve documentation.",
+      achievements: [
+        "Merged pull requests across multiple repositories",
+        "Improved project documentation leading to better onboarding",
+        "Engaged with community members to foster collaboration",
+        "Organized workshops to promote open-source contributions",
+      ],
+      technologies: ["JavaScript", "Node.js", "React", "AWS", "GraphQL"],
+      icon: <Code className="h-5 w-5" />,
+      color: "from-purple-800 to-red-500",
     },
   ];
 
@@ -187,7 +224,7 @@ const Experience = () => {
             </div>
             <div className="group text-center">
               <div className="mb-2 text-3xl font-bold text-purple-600 transition-transform duration-300 group-hover:scale-110 dark:text-purple-400">
-                2
+                4
               </div>
               <div className="text-sm uppercase tracking-wide text-slate-600 dark:text-slate-300">
                 Companies
